@@ -1,0 +1,8 @@
+@echo off
+:: Switch to the D drive (where your files are)
+cd /d D:\
+:: Run the server
+python -m http.server --bind 0.0.0.0 8080
+
+
+
