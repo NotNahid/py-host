@@ -6,3 +6,13 @@ python -m http.server --bind 0.0.0.0 8080
 
 
 
+
+
+
+@echo off
+:: Switch to the D drive (where your files are)
+cd /d D:\The SUbtile meham
+:: Run the server
+python -m http.server --bind 0.0.0.0 8080
+
+
